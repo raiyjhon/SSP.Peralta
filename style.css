@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: burlywood;
+  overflow-y: scroll; /* Keeps the scroll bar visible */
+}
+
+.header {
+  background-color: green;
+  color: #fff;
+  padding: 50px;
+  text-align: right;
+}
+
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 10px; 
+}
+
+.logo img {
+  width: 190px;
+  height: auto;
+}
+
+.head {
+  background-color: burlywood;
+  padding: 1px; /* Increase padding for more space */
+  text-align: right;
+}
+
+.head .hea1 {
+  display: flex; /* Use flexbox for layout */
+  gap: 30px; /* Increase gap between links */
+}
+
+.head .hea1 a {
+  color: #333;
+  text-decoration: none;
+  font-size: 1.5rem; /* Increase font size for better visibility */
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+.head .hea1 a:hover {
+  color: #666; /* Change color on hover */
+  transform: scale(1.2); /* Slightly enlarge on hover */
+}
+
+.info {
+  display: flex;
+  align-items: flex-start; /* Align items to the start for better spacing */
+  padding: 40px; /* Increase padding for a larger container */
+  gap: 2rem; /* Adjust gap between image and info for better spacing */
+}
+
+.info img {
+  width: 25%; /* Increase the image size */
+  border-radius: 50%;
+}
+
+.info22 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 60%; /* Limit width for better layout */
+}
+
+.info22 h1 {
+  font-size: 2.5rem; /* Make the name larger */
+  margin-bottom: 10px; /* Add space below the name */
+  color: #333;
+}
+
+.info22 h3 {
+  font-size: 1.8rem; /* Increase subtitle size */
+  margin-bottom: 20px; /* Add space below the role */
+  color: #666; /* Slightly lighter color for the role */
+}
+
+.infoma {
+  font-size: 1.3rem; /* Base font size */
+  line-height: 1.8; /* Adjust line height for better readability */
+  color: #333;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px; /* Slightly round the corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a soft shadow */
+  background-color: burlywood;
+  max-width: 700px; /* Limit the width for readability */
+  transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.infoma:hover {
+  transform: scale(1.20); /* Zoom in slightly on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 730px) {
+  .info {
+    flex-direction: column; /* Stack elements vertically on smaller screens */
+    gap: 2rem; /* Reduce gap on mobile */
+  }
+
+  .info img {
+    width: 40%; /* Adjust image size on smaller screens */
+  }
+
+  .infoma {
+    font-size: 1.1rem; /* Slightly smaller text for mobile */
+  }
+}
+
+
+
+
+.folderpage 
+{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        .folderpage a {
+          display: block;
+          text-align: center;
+          margin: 10px;
+          text-decoration: none;
+          color: #333;
+      }
+
+
+      .folderpage a:hover {
+          box-shadow: 0 0 10px black;
+      }
+
+      .folderpage img {
+          width: 190px;
+          height: auto;
+      }
+
+      .folderpage h1 {
+          font-size: 16px;
+          margin-top: 5px;
+      }
+
+
+
+
+
+/* Css sa footer */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: wheat;
+  color: #333; /* Improve contrast */
+  text-align: center;
+  padding: 1px; /* Increase padding for more space */
+  font-size: 1.2rem; /* Increase font size for better visibility */
+}
+
+.footer a {
+  color: #333; /* Adjust for better contrast */
+  text-decoration: none;
+  margin: 0 15px; /* Increase margin for spacing */
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer img {
+  width: 36px; /* Increase icon size */
+  height: auto;
+  margin: 0 10px; /* Add space between icons */
+  transition: transform 0.3s ease; /* Smooth transition for hover */
+}
+
+.footer img:hover {
+  transform: scale(1.1); /* Slightly enlarge icons on hover */
+}
+
+
+
+
+
+/* styles.css */
+
+.ceti {
+  margin: 5%;
+  margin-top: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; 
+  justify-content: center; 
+}
+
+.ceti h1 {
+  font-size: 2.5rem; /* Set the desired font size */
+  margin-bottom: 20px; /* Space below the heading */
+  color: #333; /* Heading color */
+  text-align: center; /* Center align text */
+}
+
+
+.ceti img {
+  width: 100%; 
+  max-width: 500px; 
+  border: 1px solid #ddd; 
+  transition: transform 0.2s ease; 
+}
+
+
+.ceti img:hover {
+  transform: scale(1.1); 
+}
+
+
+.work{
+  margin: 5%;
+}
+
+
+
+/* GAllery css */
+.Gallery {
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.Gallery h1 {
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.Gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.Gallery img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(21, 21, 21, 0.3);
+}
+
+.Gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 20px;
+}
